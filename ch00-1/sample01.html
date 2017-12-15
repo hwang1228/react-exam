@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>첫번째 React App</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="https://unpkg.com/react/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
+        <script type="text/babel">
+        class Hello extends React.Component {
+            render() {
+                return (
+                    <h1>Hello World!!! hi</h1>
+                );
+            }
+        }
+        ReactDOM.render(<Hello />, document.getElementById('app'));
+        </script>
+    </body>
+</html>
+    

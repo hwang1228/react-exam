@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/sample.js"],"names":["name","console","log"],"mappings":";;AAAA,IAAIA,OAAO,OAAX;AACAC,QAAQC,GAAR,WAAoBF,IAApB","file":"sample.js","sourcesContent":["let name = 'world';\r\nconsole.log(`hell ${name}`);"]}

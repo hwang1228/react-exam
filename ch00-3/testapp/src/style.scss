@@ -1,0 +1,12 @@
+table.list  { 
+    width: 600px; 
+    border:1px solid black; 
+    border-collapse:collapse; 
+    
+    td, th {
+        border:1px solid black;  text-align:center;
+    }
+    thead>tr {
+        color:yellow; background-color: purple;
+    }
+}
